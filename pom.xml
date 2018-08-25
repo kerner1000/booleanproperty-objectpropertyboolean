@@ -4,7 +4,8 @@
     <groupId>com.github.booleanproperty-objectpropertyboolean</groupId>
     <artifactId>booleanproperty-objectpropertyboolean</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>BooleanProperty and ObjectProperty<Boolean></name>
+    <name>BooleanProperty and ObjectPropertyBoolean
+    </name>
     <description>Why does BiDi-Binding not work?</description>
     <developers>
         <developer>
@@ -29,4 +30,12 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
